@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="myWebsite">
+
+<head>
+    <title>Page Garner</title>
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.10.0/angular-material.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Mono:300,100,500' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div layout="column">
+        <div class="topNav" layout="row">
+            <a href="/#/home" flex="70">
+            </a>
+            <a class="home" href="/#/home"flex="10">
+                <p> HOME </p>
+            </a> 
+            <a  href="/#/about" flex="10">
+                <p> ABOUT </p>
+            </a>
+        </div>
+        <div layout="row">
+            <div class="sideNav">
+                <div class="icons" layout="column">
+                       <p>Garner</p><p>Page</p>
+                </div>
+            </div>
+            <ng-view></ng-view>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.10.0/angular-material.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>
+    <script src="app.js"></script>
+    <script src="Controllers/mainCtrl.js"></script>
+</body>
+
+</html>

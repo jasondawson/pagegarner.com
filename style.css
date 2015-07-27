@@ -1,0 +1,261 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.topNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    z-index: 9999;
+    background: white;
+}
+
+.topNav p {
+    margin: 25px;
+    font-family: 'DIN Condensed';
+    color: black;
+    letter-spacing: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.sideNav {
+    height: 1500px;
+    width: 70px;
+    background-color: white;
+    position: fixed;
+}
+
+
+.icons {
+    margin-top: 485px;
+}
+
+.icons p {
+    font-size: 16px;
+    margin: 25px;
+    transform: rotate(270deg);
+    color: black;
+    font-family: 'DIN Condensed';
+    text-transform: uppercase;
+    letter-spacing: 9px;
+}
+
+.home {
+    margin-left: 65px;
+}
+
+.header {
+    margin-left: 75px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    width: 80%;
+    color: black;
+    font-size: 85px;
+    font-family: 'DIN Condensed';
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+
+.projects {
+    margin-top: 70px;
+    margin-right: 65px;
+    margin-left: 40px;
+}
+
+.projectsTitle {
+    margin-left: 750px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    color: black;
+    font-family: 'DIN Condensed';
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    border-bottom: 3px solid black;
+}
+
+.project {
+    margin: 10px;
+    height: 350px;
+}
+
+.hoverText {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 150px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 110px;
+    visibility: hidden;
+    color: white;
+    font-size: 18px;
+    font-family: 'DIN Condensed';
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 35px;
+  /*  border: 1px solid black;*/
+
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+ /*   border: 2px solid black;*/
+}
+
+.img1 {
+    background: url('sanfranpic.jpg') no-repeat;
+}
+
+.img2 {
+    background: url('86H copy.jpg');
+}
+
+.img3 {
+    background: url('lr.png');
+}
+
+.img4 {
+    background: url('DeathtoStock_Creative Community3.jpg') no-repeat;
+}
+
+.img:hover .hoverText {
+    visibility: visible;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.footer {
+    margin-top: 60px;
+}
+
+.contactMe {
+    font-size: 75px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: 'DIN Condensed';
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+}
+
+/*#19B5FE*/
+
+.contactMe:hover {
+    color: #EF4836;
+}
+
+.mediaRow p {
+    margin-right: 45px;
+    margin-bottom: 65px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+
+.footer {
+    margin-left: 75px;
+}
+
+.about {
+    width: 90%;
+    height: 400px;
+    margin-top: 55px;
+    margin-left: 80px;
+}
+
+.aboutMe {
+    margin: 85px 85px 0px 85px;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 30px;
+    color: #ccc;
+}
+
+span {
+ font-size: 25px;
+
+}
+
+.picSkills {
+  vertical-align: center;
+  margin: 75px;
+}
+
+.pic {
+    width: 350px;
+    height: 350px;
+    margin-left: 65px;
+    border-radius: 50%
+}
+
+.skillsTitle {
+  width: 35px;
+  height: 55px;
+  margin-left: 150px;
+   transform: rotate(270deg);
+    margin-top: 200px;
+    margin-right: 0px;
+    font-size: 28px;
+    color: black;
+    font-family: 'DIN Condensed';
+    text-transform: uppercase;
+    letter-spacing: 9px;
+}
+ul {
+   margin-top: 40px;
+}
+
+li {
+  margin-bottom: 5px;
+    font-size: 17px;
+    color: black;
+    font-family: 'DIN Condensed';
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.footer2 {
+    background-color: #CF000F;
+    color: white;
+}
+
+.contactMe2 {
+    font-size: 75px;
+    margin-left: 35px;
+    margin-bottom: 0px;
+    color: white;
+    font-family: 'DIN Condensed';
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+}
+
+.footer2:hover {
+    background-color: #F22613;
+}
+
+.mediaRow2 {
+    margin-left: 35px;
+}
+
+.mediaRow2 p {
+    margin-right: 45px;
+    margin-bottom: 65px;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
