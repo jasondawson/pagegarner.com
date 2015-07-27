@@ -29,9 +29,7 @@ app.config(function($routeProvider) {
       controller: 'MainCtrl'
     })
 
-
-
-      .otherwise({
+    .otherwise({
         redirectTo: '/home'
       })
 
