@@ -88,19 +88,16 @@ a {
 
 .hoverText {
     text-align: center;
-    margin: 0 auto;
+    width: 100%;
+    height: 58%;
     padding-top: 150px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-bottom: 105px;
+    padding-bottom: -205px;
     visibility: hidden;
     color: white;
     font-size: 18px;
     font-family: 'DIN Condensed';
     letter-spacing: 5px;
     text-transform: uppercase;
-    margin: 35px;
-    /*  border: 1px solid black;*/
 }
 
 .img {
@@ -129,7 +126,7 @@ a {
 .img:hover .hoverText {
     visibility: visible;
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(242, 38, 19, 0.8);
 }
 
 .footer {
@@ -276,7 +273,7 @@ li {
 
 
 .light {
-  margin-left: 170px;
+  margin-left: 180px;
 }
 
 .check {
